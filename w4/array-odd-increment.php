@@ -7,11 +7,11 @@ $oddnumbers = array();
 
 for ($num = 1; $num <= 100; $num++) {
     if ($num % 2 != 0) {
-        array_push($oddnumbers, $num);
+        echo "$i <br>";
     }
 }
 
-print_r($oddnumbers);
+
 
 ?>
 </body>
